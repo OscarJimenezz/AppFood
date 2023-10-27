@@ -1,0 +1,57 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffc10762; /* Fondo predeterminado, puede ser reemplazado por la imagen de fondo */
+}
+
+header {
+  color: #ffffff;
+  text-align: center;
+  padding: 50px;
+  background-color: transparent; /* Fondo transparente */
+}
+
+header h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+header p {
+  font-size: 34px;
+  padding: 50px;
+  text-align: justify;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: transparent; /* Fondo transparente */
+}
+
+.image-card {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #ffffff;
+  transition: background-color 0.3s;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-card:hover {
+  background-color: rgba(255, 255, 255, 0.5); /* Fondo con transparencia en hover */
+}
+
+.image-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-title {
+  font-size: 24px;
+  margin: 10px 0;
+}
